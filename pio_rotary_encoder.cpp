@@ -97,6 +97,7 @@ int main()
     // infinite loop to print the current rotation
     while (true)
     {
+        sleep_ms(50);
         printf("rotation=%d\n", my_encoder.get_rotation());
         // printf("Hello, pico!\n");
         
